@@ -1,0 +1,85 @@
+
+h1{
+    color: #0049a5;
+    position:absolute;
+    top:1vw;
+    left: 2vw;
+}
+header a{
+     color: #0049a5;
+     text-decoration: none;
+}
+header li :hover{
+    text-decoration: underline ;
+}
+main a{
+    text-decoration: none;
+}
+main li:hover{
+    text-decoration: underline ;
+}
+section{
+    background-color: blanchedalmond;
+    padding: 30px 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color :#ecaa30;
+    height: 80px;
+    width: 100%;
+}
+header li{
+    display:inline;
+    margin-right: 4vw;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0.5vw;
+}
+.开头{
+   background-image: url("images/首页图.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   color:black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.开头 h2{
+    font-size: 65px;
+}
+.开头 p{
+    color: #FEF7E6;
+    font-size: 18px;
+}
+.介绍 {
+    display: flex;
+    background-color: #ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.介绍 div {
+    width: 300px;
+    text-align: center;
+}
+.介绍 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.介绍 a {
+    color: peru;
+    text-decoration: none;
+    border: 2px solid peru;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.介绍 h2 {
+    margin-top: 15px;
+}
