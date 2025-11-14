@@ -1,0 +1,52 @@
+.container {
+             display: flex;
+             gap: 20px;
+             padding: 20px;
+}
+         /* 文字列表 */
+.text-list {
+             list-style: none;
+             padding: 0;
+             margin: 0;
+}
+.text-list li {
+             position: relative;
+             margin: 12px 0;
+             padding: 10px 16px;
+             background-color: #f3f4f6;
+             border-radius: 6px;
+             color: #1f2937;
+             cursor: pointer;
+             transition: background-color 0.3s;
+ }
+         /* 鼠标悬浮文字时变色 */
+ .text-list li:hover {
+             background-color: #e0e7ff;
+ }
+         /* 图片样式：默认隐藏，固定在右侧 */
+ .img-preview {
+             display: none;
+             width: 300px;
+             height: auto;
+             border: 1px solid #e5e7eb;
+             border-radius: 8px;
+             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+ }
+         /* 悬停每个文字时，显示对应的图片 */
+.text-list li:hover .img-preview {
+             display: block;
+             position: absolute;
+             left: 120%; /* 图片在文字右侧 */
+             top: 50%;
+             transform: translateY(-50%); /* 垂直居中 */
+ }
+header{
+    background-color :#744812d8;
+    height: 80px;
+    width: 100%;
+}
+.杰瑞画风{
+    background-color :#e1d19f;
+    height: 100%;
+}
+   
